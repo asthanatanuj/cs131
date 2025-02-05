@@ -3,4 +3,4 @@
 4. meminfo has information about memory and cpuinfo has information about cpuinfo
 5. 976900 kB (ran head meminfo)
 6. 2 processors. model name: Intel(R) Xeon(R) CPU @ 2.20GHz so, it is x86_64 processor architecture. 2.20 GHZ.
-7. Version is 20.04.6 LTS (Focal Fossa). It is found in the os-release file. 
+7. Version is 20.04.6 LTS (Focal Fossa). It is found in the os-release file.  
