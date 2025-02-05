@@ -1,0 +1,44 @@
+       
+cd cs131
+mkdir ws2
+cd ws2
+pwd
+  253  cd..
+  254  cd ..
+  256  cd ..
+  266  ls
+  267  cd etc/
+  271  id
+  272  cd ..
+  273  ls
+  274  cd ..
+  275  ls
+  276  cd .
+  277  ls
+  295  cd proc
+  296  ls meminfo 
+  297  ls cpuinfo 
+  299  head meminfo 
+  300  man head
+  301  head -1 cpuinfo 
+  302  tail -1 cpuinfo
+  303  tail cpuinfo
+  304  cat cpuinfo
+  305  man tail
+  307  head cpuinfo 
+  308  cd ..
+  309  ls
+  310  cd etc
+  311  ls
+  312  cat os-release
+  313  cd ..
+  314  ls
+  315  cd home
+  316  ls
+  317  cd asthanatanuj
+  318  ls
+  319  cd cs131
+  320  ls
+  321  cd ws2
+  322  touch cmds.log
+  323  history > cmds.log 
