@@ -1,0 +1,49 @@
+533  mkdir ws3
+  534  cd ws3
+  535  cd ..
+  536  apt install python3-pip
+  537  sudo apt install python3-pip
+  538  pip intall gdown
+  539  apt install python3-pip
+  540  sudo apt install python3-pip
+  541  apt-get update
+  542  pip install gdown
+  543  apt install python3-pip
+  544  cd ..
+  545  cd..
+  546  cd ..
+  547  apt install python3-pip
+  548  ls
+  549  cd rroot
+  550  cd root
+  551  sudo apt install python3-pip
+  552  sudo apt update --fix-missing
+  553  sudo apt upgrade -y
+  554  pip install gdown
+  555  sudo apt install python3-pip
+  556  pip install gdown
+  557  cd
+  558  cd cs131
+  559  cd ws3
+  560  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  561  /home/<user-name>/.local/bin/gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  562  ./home/<user-name>/.local/bin/gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  563  /home/asthanatanuj/.local/bin/gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  564  cd/home/<user-name>/.local/bin
+  565  cd/home/asthanatanuj/.local/bin
+  566  cd /home/asthanatanuj/.local/bin
+  567  ls
+  568  cd cs131
+  569  cd
+  570  cs 131
+  571  cd cs131
+  572  cd ws3
+  573  ls
+  574  head 2019-01-h1.csv 
+  575  grep '2019-01-02' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr
+  576  grep '2019-01-02' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr|head -3
+  577  vim ws3.txt
+  578  grep '2019-01-10' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr
+  579  grep '2019-01-10' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr| head -3
+  580  vim ws3.txt
+  581  history
