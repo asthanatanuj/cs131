@@ -40,10 +40,10 @@
   572  cd ws3
   573  ls
   574  head 2019-01-h1.csv 
-  575  grep '2019-01-02' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr
-  576  grep '2019-01-02' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr|head -3
+  575  grep '2019-01-02' 2019-01-h1.csv | cut -d',' -f8 | sort | uniq -c | sort -nr | head -3
+  576  grep '2019-01-10' 2019-01-h1.csv | cut -d',' -f8 | sort | uniq -c | sort -nr | head -3
   577  vim ws3.txt
-  578  grep '2019-01-10' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr
-  579  grep '2019-01-10' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr| head -3
+  578  grep '2019-01-02' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr
+  579  grep '2019-01-10' 2019-01-h1.csv | awk -F',' '{print $8}'|sort|uniq -c| sort -nr
   580  vim ws3.txt
   581  history
