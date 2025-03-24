@@ -1,0 +1,66 @@
+1333  cd cs131/
+ 1334  mkdir a56
+ 1335  ls
+ 1337  cd cs131/
+ 1338  cd a56/
+ 1339  /home/asthanatanuj/.local/bin/gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+ 1340  cd cs131/a56/
+ 1341  ls
+ 1349  man sed
+ 1350  head -10 2019-01-h1.csv
+ 1353  ls
+ 1358  head -10 2019-01-h1.csv
+ 1359  sed -n '/^2.0,/ p' 2019-01-h1.csv > vendor2.csv
+ 1360  ls
+ 1361  head -10 vendor2.csv
+ 1362  cd cs131/a56/
+ 1363  cd ..
+ 1364  mv a56/ ws56/
+ 1365  ls
+ 1366  cd ws
+ 1367  cd ws56/
+ 1368  ls
+ 1369  head -10 vendor2.csv
+ 1370  wc vendor2.csv
+ 1371  man wc
+ 1372  sed 's/[:"-]//g' 2019-01-h1.csv > no-seperators.csv
+ 1373  touch ws56.txt
+ 1374  vim ws56.txt
+ 1375  head -10 no-seperators.csv >> ws56.txt
+ 1376  cat ws56.txt
+ 1377  sed 's/\.[0-9]*//g' 2019-01-h1.csv  > no-fractions.csv
+ 1378  ls
+ 1379  head -10 no-fractions.csv
+ 1380  rm no-fractions.csv
+ 1381  sed 's/\.[0-9]*//g' no-seperators.csv  > no-fractions.csv
+ 1406  awk -F ',' '$17 >= 10.0 {tipval[$14]++} END {for (tipamt in tipval) print tipamt, tipval[tipamt]}' ./2019-01-h1.csv >> test.txt 
+ 1407  vim test.txt 
+ 1408  rm test.txt 
+ 1409  awk -F ',' '$17 >= 10.0 {tipval[$14]++} END {for (tipamt in tipval) print tipamt, tipval[tipamt]}' ./2019-01-h1.csv >> ws56.txt 
+ 1410  head -10 ws56.txt 
+ 1411  vim ws56.txt 
+ 1412  awk -F ',' '$17 >= 10.0 {tipval[$14]++} END {for (tipamt in tipval) print tipamt, tipval[tipamt]}' ./2019-01-h1.csv >> example.txt
+ 1413  awk -F ' ' '{print $2}' example.txt | sort 
+ 1414  man sorty
+ 1415  man sort
+ 1416  awk -F ' ' '{print $2}' example.txt | sort | uniq -c | head -20
+ 1417  vim example.txt 
+ 1418  awk -F ' ' '{print $2}' example.txt | sort -nr
+ 1419  awk -F ' ' '{print $2}' example.txt | sort -nr | head -20
+ 1420  man sort
+ 1421  awk -F ' ' '{print $1,$2}' example.txt | sort -k1,1nr | head -20
+ 1422  awk -F ' ' '{print $1,$2}' example.txt | sort -k2 ,2nr | head -20
+ 1423  awk -F ' ' '{print $1,$2}' example.txt | sort -k2 , 2nr | head -20
+ 1424  awk -F ' ' '{print $1,$2}' example.txt | sort -k2,2nr | head -20
+ 1425  awk -F ' ' '{print $1,$2}' example.txt | sort -k2,2nr | head -20 >> ws56.txt 
+ 1426  vim ws56.txt 
+ 1427  awk -F ' ' '{print $17}' 2019-01-h1.csv | sort -nr | head -20
+ 1428  awk -F ' ' '{print $14}' 2019-01-h1.csv | sort -nr | head -20
+ 1429  awk -F ',' '{print $14}' 2019-01-h1.csv | sort -nr | head -20
+ 1430  awk -F ',' '$17 >= 10.0 {tipval[$14]++} END {for (tipamt in tipval) print tipamt, tipval[tipamt]}' 2019-01-h1.csv | sort -k2,2nr | head -20
+ 1431  awk -F ',' '$17 >= 10.0 {tipval[$14]++} END {for (tipamt in tipval) print tipamt, tipval[tipamt]}' 2019-01-h1.csv | sort -k2,2nr | head -20 >> ws56.txt 
+ 1432  vim ws56.txt 
+ 1433  awk -F ',' '{tipval[$14]++} END {for (tipamt in tipval) print tipamt, tipval[tipamt]}' 2019-01-h1.csv | sort -k2,2nr | head -20 >> ws56.txt 
+ 1434  vim ws56.txt 
+ 1435  history
+ 1436  createcmdslog.sh 
