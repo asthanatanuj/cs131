@@ -1,0 +1,7 @@
+David : Total is  195 . Average is  65 . Student is failing
+Eve : Total is  265 . Average is  88.3333 . Student is passing
+Bob : Total is  246 . Average is  82 . Student is passing
+Charlie : Total is  270 . Average is  90 . Student is passing
+Alice : Total is  253 . Average is  84.3333 . Student is passing
+Topper is Charlie : 270
+Failure is David : 195

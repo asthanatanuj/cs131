@@ -1,0 +1,57 @@
+ 1470  mkdir a3
+ 1471  cd a3
+ 1472  clear
+ 1473  ls
+ 1474  cd ..
+ 1475  ls
+ 1476  cd ..
+ 1477  cd cs131/
+ 1478  cd a3/
+ 1479  vim data.txt
+ 1480  vim grader.awk
+ 1481  history | awk
+ 1482  history | grep awk
+ 1483  clear
+ 1484  ls
+ 1485  vim grader.awk 
+ 1486  cd cs131/a3
+ 1487  ls
+ 1488  vim grader.awk 
+ 1489  cd cs131/as3
+ 1490  cd cs131
+ 1491  ls
+ 1492  cd a3
+ 1493  vim grader.awk 
+ 1494  cd cs131/a4
+ 1495  cd cs131/a3
+ 1496  vim grader.awk 
+ 1497  ls
+ 1498  vim grader.awk 
+ 1499  rm grader.awk 
+ 1500  vim grader.awk
+ 1501  vim grader.awk 
+ 1502  ls
+ 1503  cd cs131/
+ 1504  ;ls
+ 1505  ls
+ 1506  cd a3
+ 1507  ls
+ 1508  vim grader.awk 
+ 1509  history
+ 1510  history | grep awk
+ 1511  awk -f grader.awk data.txt 
+ 1512  vim grader.awk 
+ 1513  awk -f grader.awk data.txt 
+ 1514  vim grader.awk 
+ 1515  awk -f grader.awk data.txt 
+ 1516  vim grader.awk 
+ 1517  awk -f grader.awk data.txt 
+ 1518  vim grader.awk 
+ 1519  awk -f grader.awk data.txt 
+ 1520  vim grader.awk 
+ 1521  awk -f grader.awk data.txt 
+ 1522  awk -f grader.awk data.txt > a3.txt
+ 1523  vim a3.txt 
+ 1524  vim grader.awk 
+ 1525  history
+ 1526  createcmdslog.sh 
